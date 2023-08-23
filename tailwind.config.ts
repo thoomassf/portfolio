@@ -11,6 +11,9 @@ const config: Config = {
       gridTemplateColumns: {
         'home': '412px minmax(555px, 1fr) 196px',
       },
+      colors: {
+        'dark': '#111625',
+      },
     },
   },
   plugins: [],
