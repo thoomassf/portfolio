@@ -8,7 +8,7 @@ export function Header() {
         <Image src={Logo} alt="Logo do portfolio" className='' />
       </div>
 
-      <div className='flex items-center'>
+      <nav className='flex items-center'>
         <ul className='flex text-slate-100'>
           <li className='cursor-pointer mr-4 font-normal text-lg hover:text-blue-700 hover:transition-colors'>Home</li>
           <li className='cursor-pointer mr-4 font-normal text-lg hover:text-blue-700 hover:transition-colors'>Sobre mim</li>
@@ -18,7 +18,7 @@ export function Header() {
           <li className='cursor-pointer mr-4 font-normal text-lg hover:text-blue-700 hover:transition-colors'>Recomendações</li>
           <li className='cursor-pointer mr-6 font-normal text-lg hover:text-blue-700 hover:transition-colors'>Contato</li>
         </ul>
-      </div>
+      </nav>
     </header>
   )
 }

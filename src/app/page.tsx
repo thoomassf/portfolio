@@ -3,6 +3,7 @@
 import { DownloadSimple, GithubLogo, InstagramLogo, LinkedinLogo, WhatsappLogo } from 'phosphor-react';
 
 import { Header } from "./components/Header";
+import { Subtitle } from './components/Subtitle';
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
 
       <div className="grid grid-cols-home mt-28 items-center">
         <div className="">
-           
+          <Subtitle 
+            text="✌️ Saudações!"
+          />
 
           <h1 className='text-slate-100 font-bold text-5xl mt-6'>Thomas <br/>Farias</h1>
 

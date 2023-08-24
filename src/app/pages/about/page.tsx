@@ -1,3 +1,5 @@
+import { Subtitle } from "@/app/components/Subtitle";
+
 export default function About() {
   return (
     <div className="min-h-screen max-w-[1240px] m-auto grid grid-cols-2 items-center justify-between">
@@ -6,9 +8,9 @@ export default function About() {
       </div>
 
       <div>
-        <span className='font-medium text-xl text-blue-600 bg-dark bg-opacity-70 rounded-lg px-4 py-2 shadow-sm'>
-          🤗 Sobre mim
-        </span>
+        <Subtitle 
+          text="🤗 Sobre mim"
+        />
 
         <h1 className='text-slate-100 font-bold text-5xl mt-6'>Thomas Silva de Farias</h1>
 
